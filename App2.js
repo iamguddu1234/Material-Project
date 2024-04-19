@@ -33,7 +33,7 @@ function App2() {
             display: "flex",
             alignItems: "center",
             background: "white",
-            borderBottom: "1px solid black",
+            borderBottom: "1px solid #eeeded",
           }}
         >
           <Typography

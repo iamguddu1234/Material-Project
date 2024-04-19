@@ -1,5 +1,7 @@
 import { Card, CardContent, CardMedia, Typography } from "@mui/material";
 import Image from "./edit.png"; // Import your image here
+import { CiShare1 } from "react-icons/ci";
+
 
 function AssignmentCard() {
   return (
@@ -13,9 +15,7 @@ function AssignmentCard() {
       }}
     >
       <CardContent style={{ position: "relative" }}>
-        <img
-          src={Image}
-          alt="Top right image"
+        <CiShare1
           style={{
             position: "absolute",
             top: 10,
@@ -32,10 +32,10 @@ function AssignmentCard() {
           sx={{
             marginTop: "10px",
             fontSize: "16px",
-            backgroundColor: "blue",
-            border: "1px solid red",
-            color: "white",
-            padding: "5px 10px", // adding padding for better visibility
+            backgroundColor: "#ccd9f9",
+            border: "1px solid blue",
+            color: "blue",
+            padding: "3px 10px", // adding padding for better visibility
             display: "inline-block", // Limit width to the size of the text
             borderRadius: "20px", // Set border radius
           }}
@@ -47,33 +47,32 @@ function AssignmentCard() {
           variant="h5"
           component="div"
           gutterBottom
-          sx={{ fontSize: "16px" }}
+          sx={{ fontSize: "16px",color:"#222c36",fontWeight:"500",marginTop:"10px" }}
         >
-          Republic Day Celebration
+          Assignment Title
         </Typography>
 
         <Typography
           variant="h6"
           component="div"
-          sx={{ flexGrow: 1, fontSize: "16px", color: "red" }}
+          sx={{ flexGrow: 1, fontSize: "14px", color: "red",fontStyle:"italic" }}
         >
           Due on 28 Jan 2024
         </Typography>
 
         <Typography
           variant="body1"
-          color="text.secondary"
-          sx={{ fontSize: "14px" }}
+          color="#464c52"
+          sx={{ fontSize: "14px",marginTop:"10px"  }}
         >
-          <span style={{ fontWeight: "bold" }}>Description:</span> Lorem ipsum
-          dolor sit amet, consectetur adipiscing elit. Nullam ac urna eu felis
-          dapibus condimentum sit amet a nunc. Duis porttitor lorem eu faucibus
+          <span style={{ fontWeight: "500" }}>Description:</span> Lorem ipsum
+          dolor sit amet, consectetur adipiscing elit.
         </Typography>
 
         <Typography
           variant="h6"
           component="div"
-          sx={{ flexGrow: 1, fontSize: "16px" }}
+          sx={{ flexGrow: 1, fontSize: "14px",marginTop:"10px" , fontWeight:"400"}}
         >
           By Rajesh Kishan
         </Typography>
