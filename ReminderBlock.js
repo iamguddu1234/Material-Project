@@ -5,7 +5,7 @@ function ReminderBlock() {
   return (
     <Card
       sx={{
-        width: "99%",
+        width: "92%",
         borderRadius: "10px",
         marginBottom: "20px",
         boxShadow: "none",
@@ -18,7 +18,7 @@ function ReminderBlock() {
           variant="h5"
           component="div"
           gutterBottom
-          sx={{ fontSize: "16px" }}
+          sx={{fontSize: "16px",color:"#222c36",fontWeight:"500"}}
         >
           Reminder
         </Typography>
@@ -26,7 +26,7 @@ function ReminderBlock() {
         <Typography
           variant="h6"
           component="div"
-          sx={{ flexGrow: 1, fontSize: "16px", color: "red" }}
+          sx={{ flexGrow: 1, fontSize: "14px", color: "#464c52" , fontStyle:"italic"}}
         >
           28 Jan 2024
         </Typography>
@@ -37,7 +37,7 @@ function ReminderBlock() {
           sx={{ fontSize: "14px" }}
         >
           <span style={{ fontWeight: "bold" }}>Description:</span> Lorem ipsum
-          dolor sit amet, consectetur adipiscing elit.
+          dolor sit amet
         </Typography>
 
      

@@ -53,24 +53,24 @@ function App() {
           </Typography>
 
           <div style={{ marginRight: "40px", position: "relative" }}>
-  <MdNotificationsNone
-    style={{
-      width: "20px", // Adjust image width as needed
-      height: "20px", // Adjust image height as needed
-    }}
-  />
-  <div
-    style={{
-      position: "absolute",
-      top: "3px", // Adjust the top position to align the dot properly
-      left: "14px", // Adjust the left position to position the dot to the left side
-      width: "6px",
-      height: "6px",
-      background: "red",
-      borderRadius: "50%",
-    }}
-  ></div>
-</div>
+            <MdNotificationsNone
+              style={{
+                width: "20px", // Adjust image width as needed
+                height: "20px", // Adjust image height as needed
+              }}
+            />
+            <div
+              style={{
+                position: "absolute",
+                top: "3px", // Adjust the top position to align the dot properly
+                left: "14px", // Adjust the left position to position the dot to the left side
+                width: "6px",
+                height: "6px",
+                background: "red",
+                borderRadius: "50%",
+              }}
+            ></div>
+          </div>
         </div>
 
         <div style={{ display: "flex", margin: "20px" }}>

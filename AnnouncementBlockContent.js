@@ -35,7 +35,7 @@ function AnnouncementBlockContent() {
         <Typography
           variant="body1"
           color="#575f65"
-          sx={{ fontSize: "14px" }}
+          sx={{ fontSize: "14px", marginTop:"5px" }}
         >
           <span style={{ fontWeight: "500" }}>Description:</span> Lorem ipsum
           dolor sit amet, consectetur adipiscing elit. Nullam ac urna eu felis

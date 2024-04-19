@@ -1,11 +1,13 @@
 import { Card, CardContent, CardMedia, Typography } from "@mui/material";
 import Image from "./edit.png"; // Import your image here
+import { CiShare1 } from "react-icons/ci";
+
 
 function AssignmentCard2() {
   return (
     <Card
       sx={{
-        width: "99%",
+        width: "95%",
         borderRadius: "10px",
         marginBottom: "20px",
         boxShadow: "none",
@@ -13,9 +15,7 @@ function AssignmentCard2() {
       }}
     >
       <CardContent style={{ position: "relative" }}>
-        <img
-          src={Image}
-          alt="Top right image"
+        <CiShare1
           style={{
             position: "absolute",
             top: 10,
@@ -32,24 +32,24 @@ function AssignmentCard2() {
           sx={{
             marginTop: "10px",
             fontSize: "16px",
-            backgroundColor: "blue",
-            border: "1px solid red",
-            color: "white",
-            padding: "5px 10px", // adding padding for better visibility
+            backgroundColor: "#ccd9f9",
+            border: "1px solid blue",
+            color: "blue",
+            padding: "3px 10px", // adding padding for better visibility
             display: "inline-block", // Limit width to the size of the text
             borderRadius: "20px", // Set border radius
           }}
         >
-          Assignement2
+          math
         </Typography>
 
         <Typography
           variant="h5"
           component="div"
           gutterBottom
-          sx={{ fontSize: "16px" }}
+          sx={{ fontSize: "16px",color:"#222c36",fontWeight:"500",marginTop:"10px" }}
         >
-          Republic Day Celebration
+          Assignment Title
         </Typography>
 
         <Typography
@@ -58,18 +58,17 @@ function AssignmentCard2() {
           sx={{ fontSize: "14px" }}
         >
           <span style={{ fontWeight: "bold" }}>Description:</span> Lorem ipsum
-          dolor sit amet, consectetur adipiscing elit. Nullam ac urna eu felis
-          dapibus condimentum sit amet a nunc. Duis porttitor lorem eu faucibus
+          dolor sit amet, consectetur adipiscing elit. Duis porttitor lorem eu faucibus
         </Typography>
 
-        <div style={{ display: "flex", justifyContent: "space-between" }}>
-          <Typography variant="h6" component="div" sx={{ fontSize: "16px" }}>
+        <div style={{ display: "flex", justifyContent: "space-between",marginTop:"10px"}}>
+          <Typography variant="h6" component="div" sx={{ fontSize: "14px", fontWeight:"400" }}>
             By Rajesh Kishan
           </Typography>
           <Typography
             variant="h6"
             component="div"
-            sx={{ fontSize: "16px", color: "red" }}
+            sx={{ fontSize: "14px", color: "red", fontStyle:"italic" }}
           >
             Due on 28 Jan 2024
           </Typography>

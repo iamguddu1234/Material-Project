@@ -61,7 +61,7 @@ function UpcommingEventsCard() {
         </Typography>
         <Typography
           variant="body1"
-          color="text.secondary"
+          color="#464c52"
           sx={{ fontSize: "14px" }}
         >
           <span style={{ fontWeight: "500" }}>Description:</span> Lorem ipsum
